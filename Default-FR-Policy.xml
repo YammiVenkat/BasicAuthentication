@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Default-FR-Policy">
+    <Basepaths>/default-fr-policy</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1625634298335</CreatedAt>
+    <CreatedBy>venkat.narayana1153r@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Default-FR-Policy</DisplayName>
+    <LastModifiedAt>1625635232480</LastModifiedAt>
+    <LastModifiedBy>venkat.narayana1153r@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:8bf1b55e933686fc4072891208548af3916ad1c2d1e06b0c1a74afc70479671bc0c1bf8cf8bf752e104b8b6ab64e534201af039e000ebcb38f3b5a0bffc6a357:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>JavaScript-1</Policy>
+        <Policy>JavaScript-2</Policy>
+        <Policy>JavaScript-3</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+        <Resource>jsc://JavaScript-2.js</Resource>
+        <Resource>jsc://JavaScript-3.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
